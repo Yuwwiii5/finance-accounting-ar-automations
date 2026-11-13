@@ -63,5 +63,3 @@ Reads the Mews payment report and writes a ready-to-upload Business Importer fil
 - Repeatable month-end processes that are easier to hand over to a backup
 
 ---
-
-📫 **Contact:** [your work email] · [www.wayfarer-group.com](https://www.wayfarer-group.com)
