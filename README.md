@@ -1,7 +1,6 @@
-# Hi, I'm Yui Shibata 👋
+# Hi, I'm Yui Shibata 
+**Accounts Receivable Accountant**
 
-**Accounts Receivable Accountant · Wayfarer Group (Wayfarer 株式会社)**
-Hotel accounting for 13 properties across Kyoto and Osaka (Kabin, ORI, Wayfarer brands).
 
 I automate the repetitive parts of hotel AR — OTA reconciliations, journal entries, prepayment reversals and revenue allocations — so the books close faster and with fewer manual errors.
 
@@ -13,7 +12,7 @@ I automate the repetitive parts of hotel AR — OTA reconciliations, journal ent
 
 | Project | What it does | Built with | Status |
 |---|---|---|---|
-| [OTA JE Generator](#ota-je-generator) | Detects the OTA from a dropped evidence file and generates the journal entry | Python | ✅ In use |
+| [OTA JE Generator](https://github.com/Yuwwiii5/finance-accounting-ar-ota-je-generator) | Detects the OTA from a dropped evidence file and generates the journal entry | Python | ✅ In use |
 | [OTA Journal Entry Workflows](#ota-journal-entry-workflows) | Turns OTA payout and reservation data into JEs for each property | Power Query (M) | ✅ In use |
 | [Prepayment Reversal Macro](#prepayment-reversal-macro) | Reverses customer prepayments to A/R once guests check out | Excel VBA | ✅ In use |
 | [OTA Fee Withholding Checklist](#ota-fee-withholding-checklist) | Builds the monthly evidence checklist from the QuickBooks Transaction Report | Power Query (M) | ✅ In use |
@@ -23,6 +22,8 @@ I automate the repetitive parts of hotel AR — OTA reconciliations, journal ent
 ---
 
 ### OTA JE Generator
+📂 [View repo](https://github.com/Yuwwiii5/finance-accounting-ar-ota-je-generator)
+
 Replaces per-OTA folders with **one drop location per hotel**. The script reads each evidence file, identifies which OTA it came from, and generates the journal entry automatically.
 - Keeps the team's standard Excel table formatting
 - Highlights cancellations in **yellow** and negative amounts in **red** for review
