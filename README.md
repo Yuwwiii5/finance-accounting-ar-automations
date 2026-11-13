@@ -1,8 +1,9 @@
-# Hi, I'm Yui Shibata 
+# Hi, I'm Yui Shibata 👋
 
-**Accounts Receivable Accountant**
+**Accounts Receivable Accountant · Wayfarer Group (Wayfarer 株式会社)**
+Hotel accounting for 13 properties across Kyoto and Osaka (Kabin, ORI, Wayfarer brands).
 
-I automate the repetitive parts of hotel AR — OTA reconciliations, journal entries, prepayment reversals, and revenue allocations — so the books close faster and with fewer manual errors.
+I automate the repetitive parts of hotel AR — OTA reconciliations, journal entries, prepayment reversals and revenue allocations — so the books close faster and with fewer manual errors.
 
 **Tools:** Python · Excel Power Query (M) · Excel VBA · QuickBooks Online · Business Importer · Google Drive
 
@@ -17,7 +18,7 @@ I automate the repetitive parts of hotel AR — OTA reconciliations, journal ent
 | [Prepayment Reversal Macro](#prepayment-reversal-macro) | Reverses customer prepayments to A/R once guests check out | Excel VBA | ✅ In use |
 | [OTA Fee Withholding Checklist](#ota-fee-withholding-checklist) | Builds the monthly evidence checklist from the QuickBooks Transaction Report | Power Query (M) | ✅ In use |
 | [F&B Revenue Allocation](#fb-revenue-allocation) | Simplifies the monthly F&B sales and fee split across outlets | Excel | 🔄 Improving |
-| [Petty Cash JE Generator](#petty-cash-je-generator) | Turns the Mews payment report into a Business Importer upload for petty cash JEs | Python | ✅ In use |
+| [Petty Cash JE Generator](https://github.com/Yuwwiii5/finance-accounting-ar-petty-cash-je-generator) | Turns the Mews payment report into a Business Importer upload for petty cash JEs | Python | ✅ In use |
 
 ---
 
@@ -46,6 +47,8 @@ Replaces a monthly copy-paste process with a Power Query that builds the OTA fee
 Streamlining the monthly workbook that allocates F&B revenue and payment fees across outlets (café, bar and restaurant), updated for the latest allocation rules.
 
 ### Petty Cash JE Generator
+📂 [View repo](https://github.com/Yuwwiii5/finance-accounting-ar-petty-cash-je-generator)
+
 Reads the Mews payment report and writes a ready-to-upload Business Importer file for petty cash journal entries across all properties.
 - Auto-suggests the property from the Mews report, then prompts for the JE number and journal date
 - Keeps the standard Business Importer template formatting, one tab per property
@@ -59,3 +62,5 @@ Reads the Mews payment report and writes a ready-to-upload Business Importer fil
 - Repeatable month-end processes that are easier to hand over to a backup
 
 ---
+
+📫 **Contact:** [your work email] · [www.wayfarer-group.com](https://www.wayfarer-group.com)
